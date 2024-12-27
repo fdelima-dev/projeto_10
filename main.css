@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Kode mono';
+}
+header{
+    padding: 40px;
+    width: 100%;
+    background-color: #008cba;
+    color: #fff;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    display: inline-block;
+}
+header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+}
+header nav ul li a:hover{
+    color: #1ee;
+    border-bottom: 2px solid #1ee;
+}
+section#about{
+    padding: 40px;
+}
+.image{
+    width: 400px;
+}
+header .container, section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section .container{
+    align-items: flex-start;
+    justify-content: space-between;
+}
+section#about h2{
+    margin-left: 20px;
+}
+section#about p{
+    margin: 20px;
+}
+h2{
+    color: #008CBA;
+}
+section#languages .container{
+    padding: 40px;
+}
+section#languages img{
+    width: 200px;
+    height: 220px;
+}
+section#projects .container{
+    padding: 40px;
+}
+section#projects h4{
+    text-align: center;
+}
+section#projects img{
+    display: block;
+    width: 50px;
+    margin: 0 auto;
+}
+section#contact .container{
+    padding: 40px;
+}
+input, textarea, button{
+    display: block;
+    width: 320px;
+    font-family: 'Kode mono';
+    margin-top: 25px;
+}
+input{
+    height: 35px;
+}
+textarea{
+    height: 200px;
+    resize: none;
+}
+input:focus, textarea:focus{
+    outline-color: #008CBA;
+}
+button{
+    height: 40px;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #012345;
+}
